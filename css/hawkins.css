@@ -196,3 +196,55 @@ body {
     width: 90%;
   }
 }
+/* =====================================================
+   HAWKINS MOBILE CINEMATIC ADJUSTMENT
+===================================================== */
+@media (max-width:768px){
+
+  /* move whole content lower */
+  .prelude-content,
+  .hawkins-container,
+  .content-wrapper{
+    padding-top:22vh !important;
+  }
+
+  /* headings bigger & clearer */
+  h1{
+    font-size:2.4rem !important;
+    letter-spacing:3px !important;
+  }
+
+  h2{
+    font-size:1.6rem !important;
+  }
+
+  p{
+    font-size:1.05rem !important;
+  }
+
+  /* buttons bigger and readable */
+  button,
+  .btn{
+    font-size:1.1rem !important;
+    padding:16px 14px !important;
+    margin:10px auto !important;
+    width:85% !important;
+  }
+
+  /* grid buttons stack nicer */
+  .button-grid,
+  .panel-grid{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:14px;
+    align-items:center;
+  }
+
+  /* center everything visually */
+  body{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+  }
+
+}
