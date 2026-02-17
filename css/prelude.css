@@ -117,3 +117,11 @@ button {
     color: black;
     box-shadow: 0 0 25px rgba(125, 249, 255, 0.7);
 }
+body{
+  transition: opacity .9s ease, filter .9s ease;
+}
+
+.fade-out{
+  opacity:0;
+  filter:blur(8px);
+}
