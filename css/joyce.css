@@ -132,3 +132,92 @@ body { background: #000; color: #ff2b2b; font-family: 'Bebas Neue', sans-serif; 
     opacity: 0.85;
     margin-bottom: 50px;
 }
+/* =========================================================
+   JOYCE MOBILE FIX — tailored for this stylesheet
+========================================================= */
+@media (max-width:768px){
+
+  /* prevent sideways scroll */
+  html,body{ overflow-x:hidden; }
+
+  /* TITLE */
+  .round-title{
+    font-size: clamp(2.2rem,10vw,3rem);
+    letter-spacing:4px;
+    margin-bottom:30px;
+  }
+
+  /* STACK TIMELINE BLOCKS */
+  .block{
+    display:flex;
+    flex-direction:column;
+    min-height:auto;
+    gap:25px;
+    padding:40px 0;
+  }
+
+  /* remove center vertical line alignment problems */
+  .line-path,
+  .timeline-progress{
+    left:20px;
+    transform:none;
+    width:4px;
+  }
+
+  .center-side{
+    order:-1;
+    margin-bottom:10px;
+  }
+
+  /* IMAGE FIX */
+  .image-frame{
+    width:100%;
+    max-width:340px;
+    height:200px;
+  }
+
+  /* TEXT FIX */
+  .text-frame{
+    max-width:95%;
+    padding:0;
+    text-align:center !important;
+  }
+
+  .text-frame h2{
+    font-size:1.8rem;
+    letter-spacing:2px;
+  }
+
+  .text-frame p{
+    font-size:1rem;
+    line-height:1.4;
+  }
+
+  /* BRANDING LOGOS */
+  .branding{
+    position:absolute;
+    top:10px;
+  }
+
+  .branding img{
+    height:50px;
+  }
+
+  /* BUTTON */
+  #nextBtn{
+    width:90%;
+    font-size:1.2rem;
+    padding:14px 0;
+  }
+
+  /* VIDEO FIX */
+  #bg-video{
+    top:0;
+    left:0;
+    transform:none;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+}
