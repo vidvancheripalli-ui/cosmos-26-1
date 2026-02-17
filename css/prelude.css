@@ -125,3 +125,26 @@ body{
   opacity:0;
   filter:blur(8px);
 }
+/* ==========================================
+   PHONE VIDEO REFRAMING (not scaling)
+========================================== */
+@media (max-width:768px){
+
+  #bg-video{
+    top:0 !important;
+    left:50% !important;
+    transform:translateX(-50%) !important;
+
+    width:auto !important;
+    height:100vh !important;
+
+    object-fit:cover;
+    object-position:70% center; 
+  }
+
+}
+@media (max-width:768px){
+  .video-overlay{
+    background:rgba(0,0,0,0.35); /* lighter overlay so video visible */
+  }
+}
