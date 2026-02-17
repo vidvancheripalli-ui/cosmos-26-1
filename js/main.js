@@ -37,7 +37,8 @@ if (enterBtn) {
     });
 }
 
-
+const vid = document.getElementById("introVideo");
+vid.playbackRate = 1.25; 
 
 
 // JOYCE -> LAB
