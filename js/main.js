@@ -38,7 +38,7 @@ if (enterBtn) {
 }
 
 const vid = document.getElementById("introVideo");
-vid.playbackRate = 1.25; 
+vid.playbackRate = 1.50; 
 
 
 // JOYCE -> LAB
