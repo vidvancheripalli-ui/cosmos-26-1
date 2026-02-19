@@ -120,7 +120,7 @@ body{
 .bg-image{
     position:fixed;
     inset:0;
-    background-image:url("cosmos-26-1/assets/images/hawkins.png");
+    background-image:url("https://cosmos-26-1.vercel.app/assets/images/hwakins.png");
     background-size:cover;
 -    background-position:center;
     background-repeat:no-repeat;
