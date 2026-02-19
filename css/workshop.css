@@ -120,9 +120,9 @@ body{
 .bg-image{
     position:fixed;
     inset:0;
-    background-image:url("../assets/images/hawkins.png");
+    background-image:url("cosmos-26-1/assets/images/hawkins.png");
     background-size:cover;
-    background-position:center;
+-    background-position:center;
     background-repeat:no-repeat;
     z-index:-2;
 }
