@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (enterBtn) {
     enterBtn.addEventListener("click", () => {
-      window.location.href = "register.html";
+      window.location.href = "https://forms.gle/LUaSKTCYTTi7xCpT8";
     });
   }
 
